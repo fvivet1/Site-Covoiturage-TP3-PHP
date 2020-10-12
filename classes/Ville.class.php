@@ -1,5 +1,6 @@
 <?php
 class Ville{
-	//A COMPLETER
-	
+	$vil_num;
+	$vil_nom;
+
 }
