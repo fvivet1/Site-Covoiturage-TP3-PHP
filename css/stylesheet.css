@@ -1,3 +1,5 @@
+
+
 a{
 	color:#222222;
 	text-decoration: none;
@@ -131,23 +133,6 @@ body{
 	text-align:center;
 }
 
-.centreImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 38%
-}
-
-label{
-	font-size:12pt;
-   font-weight:bold;
-}
-
-h1{
-	text-shadow:1px 1px 2px #333333;
-}
-
-
 * a:hover{
 
 	text-decoration: underline;
@@ -162,4 +147,72 @@ h1{
 	font-weight:bold;
 	text-decoration: none;
 }
-#connect a :visited{
+#connect a :visited{}
+
+/* ---------------------------------- */
+
+.centreImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%
+}
+
+#saisieForm{
+
+	display: flex;
+	flex-direction : row;
+	justify-content: center;
+}
+
+.formCol {
+	display: flex;
+	flex-direction : column;
+	justify-content: flex-start;
+	text-align : left;
+	margin-bottom : 10px;
+	margin-right : 10px;
+}
+
+select{
+	border-radius: 5px;
+	border-width: 2px;
+	background-color: transparent;
+}
+
+input {
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input[type=submit] {
+    background-color: #111111;
+    color: #CCCCCC;
+    border-color: #555555;
+}
+
+label{
+	font-size:12pt;
+   font-weight:bold;
+}
+
+h1{
+	text-shadow:1px 1px 2px #333333;
+}
+
+table {
+	display : flex;
+	justify-content: center;
+	text-align:center;
+ /*border-width:1px;
+ border-style:solid;
+ border-color:black;*/
+ border-collapse:collapse;
+}
+
+td {
+ border-width:1px;
+ border-style:solid;
+ border-color:black;
+ width : 180px;
+ }
