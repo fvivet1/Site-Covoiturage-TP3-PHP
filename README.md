@@ -29,6 +29,6 @@ Vous pouvez maintenant accéder au projet en tapant ``localhost/nomDuProjet`` su
 
 ## Auteurs
 
-* **Florian VIVET** _alias_ [@Sohar-FV](https://github.com/Sohar-FV)
+* **Florian VIVET** _alias_ [@fvivet1](https://github.com/fvivet1)
 
 
